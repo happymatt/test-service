@@ -8,7 +8,7 @@ public class Constants {
 	
 	
 	//资源包名，前几位为城市id,后几位作为版本号0875_20180112110844，0280_20171117212522
-	public static final String RESOURCE_PACKAGE_NAME = "0512_20180418135026";
+	public static final String RESOURCE_PACKAGE_NAME = "0772_20180428153719";
 	
 	//城市id，打不同的城市需要手动更新
 	public static final String CITY_ID = RESOURCE_PACKAGE_NAME.split("_")[0];
@@ -42,7 +42,7 @@ public class Constants {
 	public static final String PLATFORM_WEBGL = "webgl";
 	
 	public static final List<String> PLATFORMS = Lists.newArrayList(
-			/*PLATFORM_ANDROID, PLATFORM_IOS,PLATFORM_WEBGL*/ PLATFORM_WINDOWS);
+			PLATFORM_ANDROID, PLATFORM_IOS,PLATFORM_WINDOWS/*,PLATFORM_WEBGL*/ );
 	
 	//打图集接口地址
 	public static final String PACKAGE_URL = "http://139.198.2.58:8000/pack/soa_pack";
